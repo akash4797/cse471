@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btnPrimary {
+    @apply bg-green-700 text-white px-2 py-2 rounded;
+  }
+  .btnSecondary {
+    @apply bg-blue-600 text-white px-2 py-2 rounded;
+  }
+  .btnDanger {
+    @apply bg-red-600 text-white rounded px-2 py-1;
+  }
+  .defaultInput {
+    @apply px-3 py-2 border;
+  }
+}
